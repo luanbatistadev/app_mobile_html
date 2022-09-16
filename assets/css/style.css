@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 61px;
+    background: #7740ED;
+    align-items: center;
+}
+
+.navTitle {
+    padding: 21px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F1F1F1;
+}
+
+.navIcon {
+    width: 24px;
+    height: 27px;
+    padding: 13px;
+}
+
+.in {
+    display: flex;
+    flex-direction: column;
+    padding: 29px 16px 0px 16px;
+}
+
+.inDate {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 16px 0px 16px;
+}
+
+.inputTitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    padding: 0px 0px 8px 0px;
+}
+
+
+.inputIcon {
+    padding: 9px;
+}
+
+.icon {
+    width: 18px;
+    height: 20px;
+    padding: 21px 15px;
+}
+
+.input {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 39px;
+    border: 1px solid #7740ED;
+    border-radius: 10px;
+    padding: 0px 0px 0px 16px;
+}
+
+
+.inputA {
+    height: 39px;
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.addButton {
+    height: 39px;
+    background: #7740ED;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 16px;
+}
+
+.addButtonTitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F1F1F1;
+}
+
+.card {
+    height: 62px;
+    margin: 16px;
+    background: #D9D9D9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.checkBox {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #000000;
+    margin: 12px 0px 0px 18px;
+}
+
+.cardTextsA {
+    display: flex;
+    flex-direction: row;
+}
+
+.cardTexts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 0px 0px 13px;
+
+}
+
+.cardTitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    padding-bottom: 8px;
+}
+.cardTitleOutLined{
+    text-decoration: line-through;
+}
+
+.cardSubTitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
